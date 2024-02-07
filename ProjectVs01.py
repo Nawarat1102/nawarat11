@@ -13,9 +13,9 @@ with col1:
     st.subheader("จำนวนผู้เสียชีวิต")
     st.write("25600")
 
-dt=pd.read_excel('data/opendata-rtddi-54-66-9month.xlsx')
+dt=pd.read_excel('data/DT01.xlsx')
 
-#st.write
+st.write(dt.head(1))
 
 NumM=dt[dt['Sex']=='หญิง'].count()
 NumF=dt[dt['Sex']=='ชาย'].count()
