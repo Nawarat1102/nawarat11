@@ -15,6 +15,8 @@ with col1:
 
 dt=pd.read_excel('data/opendata-rtddi-54-66-9month.xlsx')
 
+#st.write
+
 NumM=dt[dt['Sex']=='หญิง'].count()
 NumF=dt[dt['Sex']=='ชาย'].count()
 
